@@ -9,6 +9,7 @@ body {
   height: 960px;
   font-family: 'Outfit', 'Bitter', 'Roboto';
   font-size: 16px;
+  text-align: center;
 }
 
 .slate-900 {
@@ -65,7 +66,6 @@ body {
 }
 
 .text-container {
-  text-align: center;
   width: 16em;
   height: 8.2em;
   margin: auto;
@@ -87,7 +87,8 @@ body {
   width: fit-content;
   position-anchor: --anchor;
   position: absolute;
-  top: anchor(bottom);
+  position-area: end center;
+  /* top: anchor(bottom); */
   left: anchor(left);
   margin-top: 10vh;
 }
